@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VictorinaRussian">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="#101010"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Викторина | Русский язык"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#F44336" />
+        </LinearLayout>
+        <ScrollView
+            android:id="@+id/vscroll1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:background="#FFFFFF">
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/textview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Вопрос 1"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/textview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="В нескольких словах НЕВЕРНО стоит ударение, найдите их. "
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:id="@+id/linear3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/checkbox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="созЫв"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="тубдиспансЕр"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/checkbox3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="тортЫ"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="добелА"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox5"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="нОвостей"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:padding="8dp"
+                    android:background="#000000"
+                    android:orientation="horizontal" />
+                <TextView
+                    android:id="@+id/textview4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Вопрос 2"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/textview5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="В нескольких словах допущена ошибка в написании, найдите их. "
+                    android:textSize="20sp"
+                    android:textColor="#000000" />
+                <LinearLayout
+                    android:id="@+id/linear5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/checkbox6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="невидИмый"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="слышЕмый"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/checkbox8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="усидчЕвый"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="глянцЕвый"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/checkbox9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="увековечЕть"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="порАжение"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear14"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:padding="8dp"
+                    android:background="#000000"
+                    android:orientation="horizontal" />
+                <TextView
+                    android:id="@+id/textview6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Вопрос 3"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/textview7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="Укажите все цифры, на месте которых должны стоять запятые. "
+                    android:textSize="20sp"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/textview13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="Рядом с тобой всегда люди (1) и (2) даже если тебе очень одиноко (3) ты не сомневайся в том (4) что кто-то сможет выслушать и понять тебя. "
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#000000" />
+                <LinearLayout
+                    android:id="@+id/linear8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/checkbox13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="1"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="2"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/checkbox11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="3"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="4"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear19"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:padding="8dp"
+                    android:background="#000000"
+                    android:orientation="horizontal" />
+                <TextView
+                    android:id="@+id/textview8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Вопрос 4"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/textview9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="В нескольких словах допущена ошибка в образовании формы слова, найдите их"
+
+                    android:textSize="20sp"
+                    android:textColor="#000000" />
+                <LinearLayout
+                    android:id="@+id/linear10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:orientation="vertical">
+                    <CheckBox
+                        android:id="@+id/checkbox31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="Несколько НОЖНИЦ"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="УМЕЛЫЕ ПОВАРА"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="быстро ВЫЗДОРОВИТ"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="пара ТУФЛЕЙ"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear23"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:padding="8dp"
+                    android:background="#000000"
+                    android:orientation="horizontal" />
+                <TextView
+                    android:id="@+id/textview11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Вопрос 5"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/textview10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="В какой строчке в словах пишется одна и та же буква. "
+                    android:textSize="20sp"
+                    android:textColor="#000000" />
+                <LinearLayout
+                    android:id="@+id/linear11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:orientation="vertical">
+                    <CheckBox
+                        android:id="@+id/checkbox22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text=" пр..горок, пр..тих­нуть, пр..но­ро­вить­ся"
+                        android:textSize="16sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text=" бе..ко­неч­ный, ра..кро­ить, ра..чёт"
+                        android:textSize="16sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text=" зав..южить, об..ект, под..строй"
+                        android:textSize="16sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="п..дбе­жать, пор..скру­тить, д..ле­пить"
+                        android:textSize="16sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox24"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text=" без..сход­ный, двух..голь­ный, под..скать"
+                        android:textSize="16sp"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="ПРОВЕРИТЬ"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VictorinaFisika">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="#212121"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textview12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Викторина | Физика"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#AB47BC" />
+        </LinearLayout>
+        <ScrollView
+            android:id="@+id/vscroll1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:background="#FFFFFF">
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/textview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Вопрос 1"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/textview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Отметьте все верные утверждения. "
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:id="@+id/linear3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:orientation="vertical">
+                    <CheckBox
+                        android:id="@+id/checkbox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text=" В инер­ци­аль­ной си­сте­ме отсчёта им­пульс си­сте­мы тел со­хра­ня­ет­ся, если сумма внеш­них сил равна нулю."
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text=" Про­цесс кон­ден­са­ции жид­ко­стей про­ис­хо­дит с по­гло­ще­ни­ем боль­шо­го ко­ли­че­ства теп­ло­ты."
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text=" В про­цес­се элек­три­за­ции тре­ни­ем два пер­во­на­чаль­но не­за­ря­жен­ных тела при­об­ре­та­ют раз­но­имённые и рав­ные по мо­ду­лю за­ря­ды."
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text=" В цепи по­сто­ян­но­го тока во всех па­рал­лель­но со­единённых ре­зи­сто­рах про­те­ка­ет оди­на­ко­вый элек­три­че­ский ток."
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+
+                        android:id="@+id/checkbox5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text=" В про­цес­се альфа-рас­па­да про­ис­хо­дит ис­пус­ка­ние ра­дио­ак­тив­ным ве­ще­ством ядер ато­мов гелия."
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear9"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:padding="8dp"
+                    android:background="#000000"
+                    android:orientation="horizontal" />
+                <TextView
+                    android:id="@+id/textview4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Вопрос 2"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/textview5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="Кто получил первую нобелевскую премию по физике\? "
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:id="@+id/linear10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:orientation="vertical">
+                    <CheckBox
+                        android:id="@+id/checkbox7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="Вильгельм Рентген"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="Майкл Фарадей"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="Исаак Ньютон"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="Поль Дирак"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear14"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:padding="8dp"
+                    android:background="#000000"
+                    android:orientation="horizontal" />
+                <TextView
+                    android:id="@+id/textview6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Вопрос 3"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/textview7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="Какая жидкость самая лёгкая\? "
+                    android:textSize="20sp"
+                    android:textColor="#000000" />
+                <LinearLayout
+                    android:id="@+id/linear17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+                    <CheckBox
+
+                        android:id="@+id/checkbox13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="Вода"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="Ртуть"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:id="@+id/checkbox11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="Сжиженный водород"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="Бензин"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear19"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:padding="8dp"
+                    android:background="#000000"
+                    android:orientation="horizontal" />
+                <TextView
+                    android:id="@+id/textview8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Вопрос 4"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/textview9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="Один моль иде­аль­но­го од­но­атом­но­го газа со­вер­ша­ет адиа­ба­ти­че­ское сжа­тие. Как из­ме­ня­ют­ся в ре­зуль­та­те та­ко­го про­цес­са дав­ле­ние и тем­пе­ра­ту­ра газа\?\n\n1) уве­ли­чи­ва­ет­ся; 2) умень­ша­ет­ся;\n3) не из­ме­ня­ет­ся"
+                    android:textSize="20sp"
+                    android:textColor="#000000" />
+                <LinearLayout
+                    android:id="@+id/linear21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/textview13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="Давление "
+                        android:textSize="25sp"
+                        android:textColor="#000000" />
+                    <EditText
+                        android:id="@+id/edittext1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:hint="123"
+                        android:textColorHint="#607D8B" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/textview14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:padding="8dp"
+                        android:text="Температура"
+                        android:textSize="25sp"
+                        android:textColor="#000000" />
+                    <EditText
+                        android:id="@+id/edittext2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:hint="123"
+                        android:textColorHint="#607D8B" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear23"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:padding="8dp"
+                    android:background="#000000"
+                    android:orientation="horizontal" />
+                <TextView
+                    android:id="@+id/textview11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Вопрос 5"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/textview10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal"
+                    android:text="Не­об­хо­ди­мо при по­мо­щи ма­ят­ни­ка экс­пе­ри­мен­таль­но опре­де­лить уско­ре­ние сво­бод­но­го па­де­ния. Для этого школь­ник взял шта­тив с муф­той и лап­кой, нить и се­кун­до­мер.\nКакие два пред­ме­та не­об­хо­ди­мо ис­поль­зовать\? "
+                    android:textSize="20sp"
+                    android:textColor="#000000" />
+                <LinearLayout
+                    android:id="@+id/linear27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:orientation="vertical">
+                    <CheckBox
+                        android:id="@+id/checkbox21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="Элек­трон­ные весы"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="Алю­ми­ни­е­вый шарик"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="Ди­на­мо­метр"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="Ли­ней­ка"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                    <CheckBox
+                        android:id="@+id/checkbox24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="Мен­зур­ка"
+                        android:textSize="18sp"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="ПРОВЕРИТЬ"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.suafer.polimat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Полимат">
+        <activity android:name=".Sudokutraning"></activity>
+        <activity android:name=".VictorinaHisoria" />
+        <activity android:name=".VictorinaFisika" />
+        <activity android:name=".VictorinaBiologia" />
+        <activity android:name=".VictorinaRussian" />
+        <activity android:name=".Sudokylevel4" />
+        <activity android:name=".victorinageografia" />
+        <activity android:name=".Sudokylevel3" />
+        <activity android:name=".Sudokylevel2" />
+        <activity android:name=".Sudokylevel1" />
+        <activity android:name=".Victorini" />
+        <activity android:name=".Math" />
+        <activity android:name=".Sudoky" />
+        <activity android:name=".Levelmenu" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

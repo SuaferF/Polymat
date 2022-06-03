@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".Sudokylevel4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linear51"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/linear47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="4dp"
+                android:background="#000000"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textview1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:background="#FFFFFF"
+                    android:text="Уровень - 4"
+                    android:textSize="20sp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear50"
+                android:layout_width="320dp"
+                android:layout_height="3dp"
+                android:layout_marginBottom="20dp"
+                android:padding="8dp"
+                android:background="#000000"
+                android:orientation="horizontal" />
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#000000"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <LinearLayout
+                    android:id="@+id/linear4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+                    <EditText
+                        android:id="@+id/edittext1"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear12"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <TextView
+                        android:id="@+id/textview13"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="3"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000" />
+                    <LinearLayout
+                        android:id="@+id/linear21"
+                        android:layout_width="6dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <TextView
+                        android:id="@+id/textview21"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="5"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000" />
+                    <LinearLayout
+                        android:id="@+id/linear32"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <TextView
+                        android:id="@+id/textview3"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="6"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000" />
+                    <LinearLayout
+                        android:id="@+id/linear38"
+                        android:layout_width="6dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <TextView
+                        android:id="@+id/textview22"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="2"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000" />
+                    <LinearLayout
+                        android:id="@+id/linear44"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext19"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear5"
+                    android:layout_width="260dp"
+                    android:layout_height="2dp"
+                    android:padding="8dp"
+                    android:background="#000000"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:id="@+id/linear6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+                    <EditText
+                        android:id="@+id/edittext2"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear19"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext7"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear22"
+                        android:layout_width="6dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext9"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear31"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext13"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear37"
+                        android:layout_width="6dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext17"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear43"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext20"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#2196F3"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear7"
+                    android:layout_width="260dp"
+                    android:layout_height="5dp"
+                    android:padding="8dp"
+                    android:background="#000000"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:id="@+id/linear8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+                    <EditText
+                        android:id="@+id/edittext3"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear15"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <TextView
+                        android:id="@+id/textview23"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="1"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000" />
+                    <LinearLayout
+                        android:id="@+id/linear23"
+                        android:layout_width="6dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext10"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear30"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext14"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear36"
+                        android:layout_width="6dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <TextView
+                        android:id="@+id/textview27"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="6"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000" />
+                    <LinearLayout
+                        android:id="@+id/linear42"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext21"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear9"
+                    android:layout_width="260dp"
+                    android:layout_height="2dp"
+                    android:padding="8dp"
+                    android:background="#000000"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:id="@+id/linear10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+                    <EditText
+                        android:id="@+id/edittext4"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear16"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <TextView
+                        android:id="@+id/textview24"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="2"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000" />
+                    <LinearLayout
+                        android:id="@+id/linear24"
+                        android:layout_width="6dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext11"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear29"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext15"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear35"
+                        android:layout_width="6dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <TextView
+                        android:id="@+id/textview28"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="3"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000" />
+                    <LinearLayout
+                        android:id="@+id/linear41"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext22"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear11"
+                    android:layout_width="260dp"
+                    android:layout_height="5dp"
+                    android:padding="8dp"
+                    android:background="#000000"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:id="@+id/linear13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+                    <EditText
+                        android:id="@+id/edittext5"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear17"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext8"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear25"
+                        android:layout_width="6dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext12"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear28"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext16"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+
+                    <LinearLayout
+                        android:id="@+id/linear34"
+                        android:layout_width="6dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext18"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear40"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext23"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear20"
+                    android:layout_width="260dp"
+                    android:layout_height="2dp"
+                    android:padding="8dp"
+                    android:background="#000000"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:id="@+id/linear14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+                    <EditText
+                        android:id="@+id/edittext6"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                    <LinearLayout
+                        android:id="@+id/linear18"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <TextView
+                        android:id="@+id/textview25"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="6"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000" />
+                    <LinearLayout
+                        android:id="@+id/linear26"
+                        android:layout_width="6dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <TextView
+                        android:id="@+id/textview17"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="4"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000" />
+                    <LinearLayout
+                        android:id="@+id/linear27"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <TextView
+                        android:id="@+id/textview26"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="3"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000" />
+                    <LinearLayout
+                        android:id="@+id/linear33"
+                        android:layout_width="6dp"
+
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <TextView
+                        android:id="@+id/textview19"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:text="5"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#000000" />
+                    <LinearLayout
+                        android:id="@+id/linear39"
+                        android:layout_width="4dp"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:background="#000000"
+                        android:orientation="vertical" />
+                    <EditText
+                        android:id="@+id/edittext24"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="25sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B"
+                        android:inputType="numberSigned" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:background="#4CAF50"
+                android:text="ЗАВЕРШИТЬ"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
